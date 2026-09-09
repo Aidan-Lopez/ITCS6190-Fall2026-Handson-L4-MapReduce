@@ -13,15 +13,6 @@ README, say where and why.
 
 ```bash
 
-```
-
----
-
-## Input and output
-
-### My input dataset
-
-```
 docker compose up -d
   
 mvn clean package
@@ -48,6 +39,19 @@ exit
 docker cp resourcemanager:/tmp/output/. shared-folder/output/
 
 docker compose down
+
+```
+
+---
+
+## Input and output
+
+### My input dataset
+
+```
+One rainy afternoon, Maya found an old notebook hidden in the back of her grandfather’s closet. The notebook was filled with strange maps, unfinished stories, and notes about a small town that no longer appeared on modern maps. Curious, Maya packed some food, grabbed a flashlight, and followed the directions written on the first page. After several hours of walking through the forest, she discovered an abandoned road covered with leaves and moss. At the end of the road stood a tiny wooden house with a red door. Inside, Maya found hundreds of books stacked from the floor to the ceiling. Every book told a different story about the forgotten town, but the final page of every book was missing. Maya realized that the notebook she carried contained those missing pages. She spent the evening matching each page to the correct book, slowly rebuilding the history of a place that everyone else had forgotten.
+
+
 ```
 
 ### The output the job produced

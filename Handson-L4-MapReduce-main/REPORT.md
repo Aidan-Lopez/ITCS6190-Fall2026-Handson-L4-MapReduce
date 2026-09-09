@@ -182,7 +182,8 @@ noticed. Some things worth looking at:
 - What the ResourceManager at <http://localhost:8088> showed during the run
 - Whether the output ordering matched what you expected
 
-
+While the MapReduce job was running, I observed the progress bar changing.
+I also could see the job present, and other jobs from previous runs. When the program finished I saw the word count of each word in the input
 
 ---
 
